@@ -78,9 +78,9 @@ if st.button("Predict Sentiment", key="predict_button"):
     else:
         result = predict_sentiment(review_input)
         if result == 'Positive':
-            st.success(f"✅ The predicted sentiment is: {result}")
+            st.success(f"The predicted sentiment is: {result}")
         else:
-            st.error(f"❌ The predicted sentiment is: {result}")
+            st.error(f"The predicted sentiment is: {result}")
 
 
 # --- Footer ---
